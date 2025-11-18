@@ -183,25 +183,7 @@ align-items: center;
     text-align: center;
     margin: 0 auto 48px;
 }
-.button {
-cursor: pointer;
-font-weight: 500;
-font-size: 16px;
- line-height: 1.5;
-letter-spacing: 0.04em;
-color: #fff;
-background-color: #4D5AE5;
-text-align: center;
-min-width: 169px;
-height: 56px;
-border-radius: 4px;
-border: none;
-cursor: pointer;
-display: block;
-flex-direction: column;
-margin: 0 auto;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 
 .button:hover,
 .button:focus {
@@ -479,11 +461,12 @@ margin-bottom: 16px;
     width: 100%;
     max-width: 1158px;
     margin-left: auto;
-     margin-right: auto;
+    margin-right: auto;
 }
 
 .logo-paragraph {
     margin-right: 120px;
+    padding-top: 16px;
 }
 
 .copyright{
@@ -522,6 +505,11 @@ margin-bottom: 16px;
     fill: #f4f4fd;
 }
 
+.subscribe-footer{
+    margin-left: 80px;
+    padding-top: 16px;
+    padding-right: 24px;
+}
 .paragraph-footer {
     margin-bottom: 16px;
     font-weight: 500;
@@ -567,13 +555,23 @@ cursor: pointer;
 background-color: #4D5AE5;
 border: none;
 border-radius: 4px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-link {
 margin-left: 16px;
 }
 
+.copyright-networks {
+    padding-top: 16px;
+}
+
+.button-footer:hover,
+.button-footer:focus {
+    background-color: #404bbf;
+}
 /* #endregion footer */
+
 /* #region popup */
 
 /* #endregion popup */
