@@ -162,7 +162,7 @@ align-items: center;
 
 /* #region hero */ 
 .page {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/hero.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero.jpg);
     padding: 188px 0;
     max-width: 1440px;
     background-repeat: no-repeat;
@@ -522,3 +522,6 @@ margin-bottom: 16px;
     fill: #f4f4fd;
 }
 /* #endregion footer */
+/* #region popup */
+
+/* #endregion popup */
