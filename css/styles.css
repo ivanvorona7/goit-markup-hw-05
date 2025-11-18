@@ -748,10 +748,13 @@ margin-bottom: 16px;
     fill: transparent;
 }
 
-input[type="checkbox"]:checked+span {
+.policy-checkbox:checked+.policy-label .custom-checkbox {
     background-color: #404bbf;
     border: none;
-    fill:#F4F4FD;
+}
+
+.policy-checkbox:checked+.policy-label .custom-checkbox svg {
+    fill: #F4F4FD;
 }
 
 .policy-link {
