@@ -748,13 +748,22 @@ margin-bottom: 16px;
     fill: transparent;
 }
 
-.policy-checkbox:checked+.policy-label .custom-checkbox {
+/* .policy-checkbox:checked+.policy-label .custom-checkbox {
     background-color: #404bbf;
     border: none;
 }
 
 .policy-checkbox:checked+.policy-label .custom-checkbox svg {
     fill: #F4F4FD;
+} */
+
+.policy-checkbox:checked+.policy-label .custom-checkbox {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
+}
+.checkbox-icon {
+    fill: currentColor;
 }
 
 .policy-link {
