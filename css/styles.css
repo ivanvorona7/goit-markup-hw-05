@@ -790,5 +790,9 @@ border-color: #4D5AE5;
     margin-top: 8px;
     margin-bottom: 16px;
 }
+
+.form-wrapper {
+    margin-top: 24px;
+}
        
 /* #endregion popup */
