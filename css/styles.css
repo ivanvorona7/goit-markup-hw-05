@@ -581,6 +581,7 @@ margin-left: 16px;
     height: 100%;
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-bottom: 8px;
 }
 
 .popup-review {
@@ -617,15 +618,12 @@ margin-left: 16px;
 .close-popup:focus {    
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
 
 .close-popup-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
- .close-popup-icon:hover,
- .close-popup-icon:focus {
-    fill: #ffffff;
- }
 
  .popup-review {
     padding: 72px 24px 24px 24px;
@@ -640,11 +638,7 @@ margin-left: 16px;
     color:#2E2F42;
     margin-bottom: 16px;
     }
-
-    .form-filling{
-        margin-bottom: 8px;
-    }
-
+    
 .label-field {
     font-size: 12px;
     line-height: 1.17;
